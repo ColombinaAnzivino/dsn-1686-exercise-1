@@ -31,6 +31,40 @@ h1,p{
     padding: 0;
 }
 
+h1{
+    font-family: 'Abel', sans-serif;
+    position: relative;
+    top: 50%;
+    -webkit-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+    font-size: 3rem;
+}
+
+.center-v{
+    font-family: 'Abel', sans-serif;
+    position: relative;
+    top: 50%;
+    -webkit-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+    font-size: 3rem;
+    margin-top: 5rem;
+}
+
+.center-v a,
+.center-v a:link,
+.center-v a:visited{
+	color: #fff;
+	text-decoration: none;
+}
+
+.icon-left-open-big{
+    -ms-transform: rotate(50deg); /* IE 9 */
+    -webkit-transform: rotate(50deg); /* Chrome, Safari, Opera */
+    transform: rotate(50deg);
+}
+
 .icon{
     width: 50%;
     color: #da5549;
