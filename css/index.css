@@ -16,3 +16,50 @@ html {
 *, *:before, *:after {
 	box-sizing: inherit;
 }
+
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Abel', sans-serif;
+    font-size: 2rem;
+    color: #fff; 
+    text-align: center;
+}
+
+h1,p{
+    margin: 0;
+    padding: 0;
+}
+
+.icon{
+    width: 50%;
+    color: #da5549;
+}
+
+header{
+    height: 100vh;
+    text-align: center;
+    background-color: #f1ac6a;
+    font-family: 'Abel', sans-serif;
+}
+
+/*
+.sec-1{
+    width: 100%;
+    height: 100vh;
+    background-color: #ef6835;
+}
+
+.sec-2{
+    width: 100%;
+    height: 100vh;
+    background-color: #ee3e3e;
+}
+
+.sec-3{
+    width: 100%;
+    height: 100vh;
+    background-color: #aa2a44;
+}
+
+*/
